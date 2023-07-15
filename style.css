@@ -5,7 +5,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    cursor: url('music-note-cursor.png');  
+    cursor: url('music-note-cursor.png'), auto;  
 }
 
 .soundwaves {
@@ -19,7 +19,6 @@ body {
     background-repeat: no-repeat;
     background-size: 350px 200px;
     background-position: center;
-    
 }
 
 h1 {
@@ -58,9 +57,8 @@ h1:hover {
     vertical-align: text-top;
     display: inline-block;
     transition: box-shadow 0.15s;
-
-
 }
+
 #playlist:hover {
     background-color:#3f4140;
     border-style: solid;
@@ -68,7 +66,6 @@ h1:hover {
     border-color: white;
     box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.2);
     color: #fff;
-    
 }
 
 #songs-list {
