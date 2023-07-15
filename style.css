@@ -5,7 +5,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    cursor: crosshair;  
+    cursor: url('music-note-cursor.png');  
 }
 
 .soundwaves {
